@@ -1,6 +1,6 @@
 from google import generativeai as ai
 
-apikey='AIzaSyA1Ya6-kqqLGNexrCAp0sPy0Xw5C1e6uvc'
+apikey='your_api_key'
 ai.configure(api_key=apikey)
 model =ai.GenerativeModel("gemini-2.0-flash-exp-image-generation")
 chat=model.start_chat()
